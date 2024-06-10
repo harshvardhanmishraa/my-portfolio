@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar my-nav">
+        <div class="container" style="border-bottom: #f2f2f2 2px solid; padding: 5px;">
+            <a class="navbar-brand my-bd" href="/" data-aos="fade-right">Harsh.dev</a>
+            <a class="nav-cot-btn" href="#contact" data-aos="fade-left">
+                <span class="hover-underline-animation"> Contact </span>
+                <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
+                    viewBox="0 0 46 16">
+                    <path fill="#f2f2f2" id="Path_10" data-name="Path 10"
+                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                        transform="translate(30)"></path>
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <!-- SECTION HOME -->
+
+    <section id="home">
+        <div class="container">
+            <div class="W-100">
+                <div class="row">
+                    <div class="col-xl-8">
+                        <div class="hero-left" data-aos="fade-right" data-aos-delay= "200">
+                            <h1 class="greet display-5">Welcome to</h1>
+                            <h1 class="h-h1 display-2">Harsh vardhan Mishra</h1>
+                            <p class="occ h4"> Web Development Hub</p>
+                            <div class="h-desc">
+                                <p class="h-cot-desc">Are you ready to turn your digital dreams into reality? You've come to the right place!</p>
+                            </div>
+                            <div class="h-btns">
+                                <button class="h-btn" role="button">Download CV!!</button>
+                            </div>
+                            <div class="nav-h-btns">
+                                <a href="#about" class="h-nav-link">About</a>
+                                <a href="#skills" class="h-nav-link">Skills</a>
+                                <a href="#projects" class="h-nav-link">Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="hero-right" data-aos="fade-left" data-aos-delay= "200">
+                            <div class="my-home-img">
+                                <img src="./20240331_192758.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-lg-4 what-card mt-5">
+                            <div class="w-card1" data-aos="zoom-in" data-aos-delay="1000">
+                                <div class="card-img"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-monitor-smartphone">
+                                        <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8" />
+                                        <path d="M10 19v-3.96 3.15" />
+                                        <path d="M7 19h5" />
+                                        <rect width="6" height="10" x="16" y="12" rx="2" />
+                                    </svg></div>
+                                <div class="card-h1">Responsive websites</div>
+                                <p class="card-h1-desc">I make responsive and modern Web sites.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 what-card mt-5">
+                            <div class="w-card1" data-aos="zoom-in" data-aos-delay="1200">
+                                <div class="card-img"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-check">
+                                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                        <circle cx="9" cy="7" r="4" />
+                                        <polyline points="16 11 18 13 22 9" />
+                                    </svg></div>
+                                <div class="card-h1">User-friendly</div>
+                                <p class="card-h1-desc">I make interactive and user-friendly Web sites.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 what-card mt-5">
+                            <div class="w-card1" data-aos="zoom-in" data-aos-delay="1400">
+                                <div class="card-img"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml">
+                                        <path d="m18 16 4-4-4-4" />
+                                        <path d="m6 8-4 4 4 4" />
+                                        <path d="m14.5 4-5 16" />
+                                    </svg></div>
+                                <div class="card-h1">Light weight</div>
+                                <p class="card-h1-desc">I make light weight and smooth running web apps.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    
+    <section id="about">
+        <div class="container">
+            <p class="abt-h mt-5 display-6" data-aos="fade-down" data-aos-duration="1000">A B O U T M E</p>
+            <div class="row">
+                <div class="col" data-aos="fade-down">
+                    <p class="about-desc">“Hello, I'm Harshvardhan Mishra, a passionate web developer dedicated to
+                    bringing ideas to life through code. With a blend of creativity and technical prowess, I specialize
+                    in crafting innovative digital solutions that elevate user experiences. Whether it's designing
+                    responsive websites, optimizing performance, or implementing cutting-edge technologies, I thrive on
+                    the challenges of the ever-evolving web landscape. My journey in web development is fueled by
+                    curiosity and a commitment to continuous learning, ensuring that I stay at the forefront of industry
+                    trends. Let's collaborate and turn your visions into captivating online realities.”</p>
+                </div>
+            </div>
+            <div class="abt-social-icons mb-2 "  data-aos="fade-down">
+                <a href="#" class="abt-social-icon" ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7L4 8v10h16V8zm0-2l8-5H4zM4 8V6v12z"/></svg> Mail</a>
+                <a href="#" class="abt-social-icon" ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M6.315 6.176c-.25-.638-.24-1.367-.129-2.034a6.77 6.77 0 0 1 2.12 1.07c.28.214.647.283.989.18A9.343 9.343 0 0 1 12 5c.961 0 1.874.14 2.703.391c.342.104.709.034.988-.18a6.77 6.77 0 0 1 2.119-1.07c.111.667.12 1.396-.128 2.033c-.15.384-.075.826.208 1.14C18.614 8.117 19 9.04 19 10c0 2.114-1.97 4.187-5.134 4.818c-.792.158-1.101 1.155-.495 1.726c.389.366.629.882.629 1.456v3a1 1 0 0 0 2 0v-3c0-.57-.12-1.112-.334-1.603C18.683 15.35 21 12.993 21 10c0-1.347-.484-2.585-1.287-3.622c.21-.82.191-1.646.111-2.28c-.071-.568-.17-1.312-.57-1.756c-.595-.659-1.58-.271-2.28-.032a9.081 9.081 0 0 0-2.125 1.045A11.432 11.432 0 0 0 12 3c-.994 0-1.953.125-2.851.356a9.08 9.08 0 0 0-2.125-1.045c-.7-.24-1.686-.628-2.281.031c-.408.452-.493 1.137-.566 1.719l-.005.038c-.08.635-.098 1.462.112 2.283C3.484 7.418 3 8.654 3 10c0 2.992 2.317 5.35 5.334 6.397A3.986 3.986 0 0 0 8 17.98l-.168.034c-.717.099-1.176.01-1.488-.122c-.76-.322-1.152-1.133-1.63-1.753c-.298-.385-.732-.866-1.398-1.088a1 1 0 0 0-.632 1.898c.558.186.944 1.142 1.298 1.566c.373.448.869.916 1.58 1.218c.682.29 1.483.393 2.438.276V21a1 1 0 0 0 2 0v-3c0-.574.24-1.09.629-1.456c.607-.572.297-1.568-.495-1.726C6.969 14.187 5 12.114 5 10c0-.958.385-1.881 1.108-2.684c.283-.314.357-.756.207-1.14"/></g></svg> Github</a>
+                <a href="#" class="abt-social-icon" ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></g></svg> Linkedin</a>
+                <a href="#" class="abt-social-icon" ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16"><path fill="currentColor" d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z"/></svg> Twitter</a>
+            </div>
+            <div class="nav-a-links d-flex justify-content-end" data-aos="fade-down" data-aos-duration="1000">
+                <a class="a-nav-link" href="#skills">Skills</a>
+                <a class="a-nav-link" href="#projects">Projects</a>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="edu-info" data-aos="zoom-in-right" data-aos-delay="1000">
+                        <div class="edu-info-c">
+                            <span class="edu-heading h1">Education :</span>
+                        <ul class="edu-info-list">
+                            <li class="edu-info-items">
+                                <div class="edu-info-1">Class 10<sup>th</sup> in 2020 from : </div>
+                                <div class="edu-info-2">St. Francis School,Ajmer</div>
+                            </li>
+                            <li class="edu-info-items">
+                                <div class="edu-info-1">Class 12<sup>th</sup> in 2022 from : </div>
+                                <div class="edu-info-2">St. Francis School,Ajmer</div>
+                            </li>
+                            <li class="edu-info-items">
+                                <div class="edu-info-1">Currently, pursuing BCA from : </div>
+                                <div class="edu-info-2">Star Infotech College,Ajmer</div>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="edu-info" data-aos="zoom-in-left" data-aos-delay="1000" >
+                        <div class="edu-info-c">
+                            <span class="edu-heading h1">Personal Info :</span>
+                            <ul class="edu-info-list">
+                                <li class="edu-info-items">
+                                    <div class="edu-info-1">I Live in: </div>
+                                    <div class="edu-info-2">Ajmer, Rajasthan (India)</div>
+                                </li>
+                                <li class="edu-info-items">
+                                    <div class="edu-info-1">I Speak : </div>
+                                    <div class="edu-info-2">English, Hindi.</div>
+                                </li>
+                                <li class="edu-info-items">
+                                    <div class="edu-info-1">Email address : </div>
+                                    <div class="edu-info-2">harshmishra14@gmail.com</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <p class="abt-h mt-5 display-6" data-aos="fade-down" data-aos-duration="1300">S K I L L S</p>
+            <div class="skills-timeline">
+                <div class="no-of-skills">
+                    <div data-aos="zoom-in" data-aos-duration="1300">
+                        <h2 class="skill-heading">HTML,CSS and JavaScript</h2>
+                        <p class="skill-desc">Proficient in crafting responsive, visually appealing web interfaces using HTML5, CSS3, and JavaScript. Experienced in utilizing modern frameworks and libraries such as Bootstrap to streamline development and enhance user experience.</p>
+                        <p class="skills-rating">⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="no-of-skills">
+                    <div data-aos="zoom-in" data-aos-duration="1300">
+                        <h2 class="skill-heading">C/C++</h2>
+                        <p class="skill-desc">Possess a solid foundation in C and C++ programming languages, enabling the creation of efficient, high-performance applications. Proficient in data structures, algorithms, and memory management principles.</p>
+                        <p class="skills-rating">⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="no-of-skills">
+                    <div data-aos="zoom-in" data-aos-duration="1300">
+                        <h2 class="skill-heading">Python</h2>
+                        <p class="skill-desc">Comfortable working with Python for web development, scripting, and automation tasks. Familiar with Django and Flask frameworks for building robust web applications. Knowledgeable in Python libraries such as NumPy, pandas, and matplotlib for data analysis and visualization.</p>
+                        <p class="skills-rating">⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="no-of-skills">
+                    <div data-aos="zoom-in" data-aos-duration="1300">
+                        <h2 class="skill-heading">MySql</h2>
+                        <p class="skill-desc">Skilled in designing and managing relational databases using MySQL. Proficient in writing SQL queries, optimizing database performance, and ensuring data integrity.</p>
+                        <p class="skills-rating">⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PROJECTS -->
+    <section id="projects">
+        <div class="container">
+            <p class="abt-h my-5 display-6" data-aos="fade-down" data-aos-duration="1000" >P R O J E C T S</p>
+        <div class="row">
+            <div class="col-xl-6" data-aos="zoom-in" data-aos-offset="200">
+                <div class="pro-card">
+                    <div class="pro-card-inner">
+                        <div class="pro-title">
+                            <span>Created on</span>
+                            <span>10-April-2024</span>
+                        </div>
+                        <p class="pro-main-title">Student Timetable Management in C</p>
+                        <div class="pro-lan">
+                            <span>C Language</span>
+                            <span>File handling</span>
+                        </div>
+                        <div class="pro-desc">
+                            <p>It will automatically generate the timetable for teachers and students. Students and teachers can login with their credentials to see the timetable. This reduces the clashes between teachers and classes.</p>
+                        </div>
+                        <a href="#" class="pro-link">Go to project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 d-flex align-items-end" data-aos="fade" data-aos-delay="1000" data-aos-offset="200">
+                <div class="drawing1"></div>
+            </div>
+        </div>
+        <div class="row w-100 d-flex justify-content-end mt-5">
+            <div class="col-xl-6 d-flex align-items-end justify-content-end" data-aos="fade" data-aos-delay="1000" data-aos-offset="200">
+                <div class="drawing3"></div>
+            </div>
+            <div class="col-xl-6" data-aos="zoom-in" data-aos-offset="200">
+                <div class="pro-card">
+                    <div class="pro-card-inner">
+                        <div class="pro-title">
+                            <span>Created on</span>
+                            <span>Coming Soon</span>
+                        </div>
+                        <p class="pro-main-title">Optical Management System</p>
+                        <div class="pro-lan">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="pro-desc">
+                            <p>Discover the efficiency of my optical management system, designed to empower users with essential functions for seamless business operations. With our system, users can effortlessly create new orders, swiftly access order details, and conveniently track order history. Additionally, our intuitive search feature allows users to quickly locate specific orders, ensuring efficiency and productivity.</p>
+                        </div>
+                        <a href="#" class="my-disable">Go to project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="pro-stay"><i>"Stay tuned for more projects!!"</i> 👍</h2>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <p class="abt-h my-5 display-6" data-aos="fade-down" data-aos-duration="1000" >C O N T A C T</p>
+            <div class="row mb-5">
+                <div class="col-md-8" data-aos="zoom-in">
+                    <div class="cot-form">
+                        <h2 class="cot-head mb-4">Get in Touch</h2>
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label my-label">Name</label>
+                                <input type="type" class="form-control ip-form" id="exampleFormControlInput1" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput2" class="form-label my-label">Email</label>
+                                <input type="email" class="form-control ip-form" id="exampleFormControlInput2" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label my-label">Message</label>
+                                <textarea class="form-control ip-form" id="exampleFormControlTextarea1" rows="3" placeholder="Enter the message"></textarea>
+                            </div>
+                            <div class="mb-3 d-flex justify-content-end">
+                                <button type="submit" class="btn my-cot-btn">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4"  data-aos="zoom-in" data-aos-delay="200">
+                    <div class="cot-right">
+                        <div class="cot-links">
+                            <a class="cot-link" href="mailto:harshvardhanmishraaa@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><rect width="416" height="320" x="48" y="96" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" rx="40" ry="40"/><path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m112 160l144 112l144-112"/></svg> /mail</a>
+                            <a class="cot-link" href="https://www.instagram.com/hmmharsh_/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48"><g fill="none"><path stroke="white" stroke-linejoin="round" stroke-width="4" d="M34 6H14a8 8 0 0 0-8 8v20a8 8 0 0 0 8 8h20a8 8 0 0 0 8-8V14a8 8 0 0 0-8-8Z"/><path stroke="white" stroke-linejoin="round" stroke-width="4" d="M24 32a8 8 0 1 0 0-16a8 8 0 0 0 0 16Z"/><path fill="white" d="M35 15a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/></g></svg> / Instagram</a>
+                            <a class="cot-link" href="https://www.linkedin.com/in/
+harshvardhan-mishraa"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="white" d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2M8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12a1.57 1.57 0 1 1 0 3.12m12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z"/></svg> / Linkedin</a>
+                            <a class="cot-link" href="https://x.com/hmmharsh_?t=gMTIBwzcnjAKF-cetgIXBg&s=08"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16"><path fill="white" d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z"/></svg> / Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <footer id="footer1" data-aos="fade-up">
+    <div class="container">
+        <div class="foot">
+            <h3 class="foot-head mt-3">Harshvardhan Mishra</h3>
+            <p class="foot-cp">&copy; 2024 harsh.dev. All rights reserved.</p>
+        </div>
+    </div>
+   </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+            offset: 50,
+            duration: 1000
+        }
+      );
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
